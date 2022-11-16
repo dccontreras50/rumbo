@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Dancing Script', cursive;
+}
+
+p,button,a,li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* FIN RESET */
+/* HEADER */
+html {
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 150px;
+    background: url(../img/bg-header.png) no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+header .container{
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a{
+    transition: 0.7s;
+}
+
+header nav a:hover{
+    transform: translateX(15px);
+}
+
+header nav ul{
+    width: 70%;
+    display: inline-block;
+    text-align: right;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0 14px;
+}
+
+header nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+}
+
+header nav ul li a:hover{
+    color: #e8f00c;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+header .content{
+    margin-top: 150px;
+    text-align: center;
+}
+
+header .content h1{
+    color: #e8f00c;
+    font-size: 40px;
+    margin: 0; 
+}
+
+header .content p{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+header .content button{
+    background: #e8F00c;
+    color: #999;
+    font-size: 28px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    margin-top: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header .content button:hover{
+    transform: scale(0.9);
+}
+
+header .content img{
+    transition: 4s;
+}
+
+header .content img:hover{
+    transform: rotate(360deg);
+}
+
+/* FIN HEADER */
+/* INICIO PLANES */
+#planes{
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#planes .row .col-card-planes{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    transition: 1s;
+}
+
+#planes .row .col-card-planes:hover{
+    transform: scale(0.9);
+}
+
+#planes .row .col-card-planes h3{
+    position: absolute;
+    color: #e8f00c;
+    top: 25%;
+    left: 0;
+    right: 0;
+}
+
+/* FINAL PLANES */
+/* INICIO SECCION DESTINOS */
+
+.container2{
+    text-align: center;
+    background: url(../img/bg-destinos.png)no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    padding-top: 10px;
+}
+
+.contenido h2{
+    color: #e8f00c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenido img{
+    height: 200px;
+}
+.fila1{
+    width: 35%;
+    display: inline-block;
+    transition: 1s;
+}
+
+.fila1:hover{
+    transform: scale(0.9);
+}
+
+.fila2{
+    display: inline-block;
+    width: 35%;
+    transition: 1s;
+}
+
+.fila2:hover{
+    transform: scale(0.9);
+}
+
+.fila1 p{
+    color: #fff;
+}
+
+.fila2 p{
+    color: #fff;
+}
+/* FINAL DESTINOS */
+/* INICIO CONTACTO */
+#contacto{
+    background: #e8f00c;
+    padding: 60px 0 80px;
+    text-align: center;
+}
+
+#contacto form{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#contacto form input{
+    width: 38%;
+    margin: 10px 15px;
+    padding: 8px 20px;
+    border-radius: 2px;
+}
+
+#contacto form button{
+    background: #898d0e;
+    color: #fff;
+    margin-top: 30px;
+    padding: 8px 50px;
+    font-size: 25px;
+    border-radius: 4px;
+}
+/* FINAL CONTACTO */
+/* INICIO FOOTER */
+footer{
+    background: #000;
+    padding: 20px 0 30px;
+    text-align: center;
+    color: #fff;
+}
+/* FINAL FOOTER */
